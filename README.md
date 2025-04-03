@@ -24,7 +24,7 @@ Make sure you have **Node.js** and **Yarn/NPM** installed on your system.
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/yourusername/your-portfolio.git
+git clone https://github.com/mishraShilpa-28/dev-portfolio.git
 cd your-portfolio
 ```
 
