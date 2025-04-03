@@ -1,0 +1,157 @@
+{
+    "name": "Shilpa Mishra",
+    "logo_name": "Shilpa Mishra",
+    "roles": [
+        "Full-Stack Developer", 
+        "UI/UX Designer",
+        "JavaScript Developer", 
+        "Machine Learning Expert"],
+    "about": {
+        "sections": {
+            "professional-info": {
+                "title": "professional-info",
+                "icon": "icons/info-professional.svg",
+                "info": {
+                    "experience": {
+                        "title": "experience",
+                        "description": "<br>I am Shilpa Mishra, a passionate Front-end Developer, AI Enthusiast, and Web Security Learner with expertise in AI, Cybersecurity, Web Development, Cloud Computing, and Blockchain. With a Bachelor's in Computer Science & Engineering, I have built projects ranging from AI-powered Resume Screeners and Chat-bots to Cybersecurity tools like Phishing Detection and Network Monitoring. My skills extend to Web & Software Development, Cloud Deployment, and Game Development, focusing on scalable, innovative, and secure applications. Constantly exploring new technologies, I strive to solve real-world challenges and create impactful solutions. 🚀"
+                    },
+                    "hard-skills": {
+                        "title": "hard-skills",
+                        "description": "<br><strong>Programming & Development:</strong> Python, JavaScript, HTML, CSS, React, Node.js, Flask, Django <br> <strong>AI & Machine Learning:</strong> NLP, Deep Learning, TensorFlow, OpenCV <br> <strong>Cybersecurity:</strong> Ethical Hacking, Network Security, Phishing Detection <br> <strong>Cloud & DevOps:</strong> AWS, Docker, Kubernetes, Terraform, CI/CD <br> <strong>Blockchain & Web3:</strong> Ethereum, Smart Contracts, Solidity <br> <strong>Data Science:</strong> Data Analysis, Time Series Forecasting, SQL, Pandas, Matplotlib"
+                    },
+                    "soft-skills": {
+                        "title": "soft-skills",
+                        "description": "<br><strong>Problem-Solving:</strong> Ability to tackle complex challenges with structured solutions. <br> <strong>Team Collaboration:</strong> Effective communicator and team player in agile environments. <br> <strong>Adaptability:</strong> Quick learner, always exploring new technologies. <br> <strong>Critical Thinking:</strong> Analytical approach to debugging and optimizing solutions."
+                    }
+                }
+            },
+            "personal-info": {
+                "title": "personal-info",
+                "icon": "icons/info-personal.svg",
+                "info": { 
+                    "bio": {
+                        "title": "bio",
+                        "description": "<br> About Me <br> I am an AI and Web Development enthusiast with a strong foundation in Cybersecurity and Cloud Computing. My journey in tech has been fueled by a passion for solving real-world problems with innovative solutions. I love building AI-powered applications, securing digital platforms, and optimizing cloud-based infrastructures. Constantly learning, I stay ahead of trends and work on projects that make an impact."
+                    },
+                    "interests": {
+                        "title": "interests",
+                        "description": "<br>My interests span AI, cybersecurity, web development, and blockchain. I enjoy working on projects that integrate AI into everyday applications, enhancing automation and efficiency. Beyond tech, I am passionate about problem-solving, exploring new advancements, and contributing to the open-source community."
+                    },
+                    "education": {
+                        "title": "education",
+                        "description": "<br>I hold a Bachelor's degree in Computer Science & Engineering, where I gained expertise in AI, Web Development, Cybersecurity, and Cloud Computing. My academic background, coupled with hands-on projects, has equipped me with the skills to build scalable and secure applications."
+                    }
+                }
+            },
+            "hobbies-info": {
+                "title": "hobbies-info",
+                "icon": "icons/info-hobbies.svg",
+                "info": {
+                    "sports": {
+                        "title": "sports",
+                        "description": "<br>I enjoy staying active through sports like badminton and table tennis. These activities help me stay focused and energized for problem-solving in tech."
+                    },
+                    "favorite-games": {
+                        "title": "favorite-games",
+                        "description": "<br>I love playing strategy and puzzle games, which enhance my analytical thinking skills. Some of my favorites include Chess, Sudoku, and multiplayer coding challenges."
+                    }
+                }
+            }
+        }
+    },
+    "contacts": {
+        "direct": {
+            "title": "contacts",
+            "sources": {
+                "email": "shilpa-mishra@outlook.com",
+                "phone": "+9999999999"
+            }
+        },
+        "social": {
+            "github": {
+                "title": "Github profile",
+                "url": "https://github.com/",
+                "user": "mishraShilpa-28"
+            },
+            "linkedin": {
+                "title": "LinkedIn profile",
+                "url": "https://linkedin.com/in/",
+                "user": "username"
+            },
+            "fiverr": {
+                "title": "Fiverr profile",
+                "url": "https://fiverr.com/in/",
+                "user": "mishraShilpa-28"
+            }
+        },
+        "find_me_also_in": {
+            "title": "find-me-also-in",
+            "sources": {
+                "youtube": {
+                    "title": "YouTube channel",
+                    "url": "https://www.youtube.com/",
+                    "user": "username"
+                },
+                "instagram": {
+                    "title": "Instagram account",
+                    "url": "https://instagram.com/",
+                    "user": "username"
+                },
+                "twitch": {
+                    "title": "Twitch profile",
+                    "url": "https://twitch.com/",
+                    "user": "username"
+                }
+            }
+        }
+    },
+    "gists": {
+        "1": "7deb9e57b46adfea3261f73d968a2bd0",
+        "2": "7deb9e57b46adfea3261f73d968a2bd0"
+    },
+    "projects": {
+        "1": {
+            "title": "_ui-animations",
+            "description": "Duis aute irure dolor in velit esse cillum dolore.",
+            "img": "/images/projects/ui-animations2.png",
+            "tech": ["Flutter"],
+            "url": "https://github.com/"
+        },
+        "2": {
+            "title": "_ai-resources",
+            "description": "Duis aute irure dolor in velit esse cillum dolore.",
+            "img": "/images/projects/ai-resources.png",
+            "tech": ["Gatsby"],
+            "url": "https://github.com/"
+        },
+        "3": {
+            "title": "_worldmap",
+            "description": "Duis aute irure dolor in velit esse cillum dolore.",
+            "img": "/images/projects/worldmap.png",
+            "tech": ["Angular"],
+            "url": "https://github.com/"
+        },
+        "4": {
+            "title": "_ui-animations",
+            "description": "Duis aute irure dolor in velit esse cillum dolore.",
+            "img": "/images/projects/ui-animations.png",
+            "tech": ["React"],
+            "url": "https://github.com/"
+        },
+        "5": {
+            "title": "_tetris-game",
+            "description": "Duis aute irure dolor in velit esse cillum dolore.",
+            "img": "/images/projects/tetris-game.png",
+            "tech": ["React"],
+            "url": "https://github.com/"
+        },
+        "6": {
+            "title": "_ethereum",
+            "description": "Duis aute irure dolor in velit esse cillum dolore.",
+            "img": "/images/projects/ethereum.png",
+            "tech": ["Vue"],
+            "url": "https://github.com/"
+        }
+    }
+}
