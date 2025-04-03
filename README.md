@@ -3,7 +3,7 @@
 Welcome to my personal developer portfolio! This project is based on the open-source [Developer Portfolio v2](https://github.com/alexdeploy/developer-portfolio-v2) by AlexDeploy, with my own custom modifications and enhancements.
 
 ## 🔗 Live Demo
-Check out my portfolio live at: **[Your Portfolio URL]**
+Check out my portfolio live at: [**[Portfolio URL]**](https://dev-portfolio-teal-xi.vercel.app/)
 
 ## 🛠 Tech Stack
 - **Frontend**: Vue 3, Nuxt.js
