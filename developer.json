@@ -64,8 +64,7 @@
         "direct": {
             "title": "contacts",
             "sources": {
-                "email": "shilpa-mishra@outlook.com",
-                "phone": "+9999999999"
+                "email": "shilpa-mishra@outlook.com"
             }
         },
         "social": {
@@ -76,13 +75,18 @@
             },
             "linkedin": {
                 "title": "LinkedIn profile",
-                "url": "https://linkedin.com/in/",
-                "user": "username"
+                "url": "www.linkedin.com/in/",
+                "user": "shilpamishra28"
             },
             "fiverr": {
                 "title": "Fiverr profile",
-                "url": "https://fiverr.com/in/",
-                "user": "mishraShilpa-28"
+                "url": "https://www.fiverr.com/",
+                "user": "shilpamishra428"
+            },
+            "upwork": {
+                "title": "UpWork profile",
+                "url": "https://www.upwork.com/freelancers/",
+                "user": "~010a286fb3d8e9f89d"
             }
         },
         "find_me_also_in": {
@@ -108,10 +112,10 @@
     },
     "gists": {
         "1": "7deb9e57b46adfea3261f73d968a2bd0",
-        "2": "7deb9e57b46adfea3261f73d968a2bd0"
+        "2": "1d41f678f5692342c17af207da155baf"
     },
     "projects": {
-        "1": {
+        "": {
             "title": "_ui-animations",
             "description": "Duis aute irure dolor in velit esse cillum dolore.",
             "img": "/images/projects/ui-animations2.png",
