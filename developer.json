@@ -127,70 +127,70 @@
             "title": "_AI-Powered-Resume-Screening",
             "description": "Automatically parses and categorizes resumes, recommending jobs based on content using machine learning for smart hiring.",
             "img": "/images/projects/worldmap.png",
-            "tech": ["python", "scikit-learn", "pandas", "regex"],
+            "tech": ["python", "scikit-learn", "pandas"],
             "url": "https://github.com/mishraShilpa-28/resume-screening-ML-categorization/"
         },
         "4": {
             "title": "_Password-Strength-Tester-&-Cracker",
             "description": "Java tool that evaluates password strength and simulates brute-force attacks for cybersecurity awareness and education.",
             "img": "/images/projects/ui-animations.png",
-            "tech": ["Java", "Regex"],
+            "tech": ["java"],
             "url": "https://github.com/mishraShilpa-28/pwd-strength-tester-and-cracker/"
         },
         "5": {
             "title": "_Phishing-Website-Detection",
             "description": "Detects phishing websites using machine learning classification models trained on URL features and HTML patterns.",
             "img": "/images/projects/tetris-game.png",
-            "tech": ["Python", "Scikit-learn", "Pandas"],
+            "tech": ["python", "scikit-learn", "pandas"],
             "url": "https://github.com/mishraShilpa-28/Detecting-Phishing-Websites-using-ML/"
         },
         "6": {
             "title": "_Real-Time-Network-Traffic-Analyzer",
             "description": "Real-time network packet analyzer with visual dashboards, filtering, Excel export, and cross-platform compatibility.",
             "img": "/images/projects/ethereum.png",
-            "tech": ["Python", "WebSocket", "Next.js", "Pandas"],
+            "tech": ["python", "next.js", "pandas"],
             "url": "https://github.com/mishraShilpa-28/real-time-network-traffic-analyzer/"
         },
         "7": {
             "title": "_AI-Chatbot-with-ChatGPT-API",
             "description": "A conversational AI chatbot integrated with the ChatGPT API for interactive, context-aware user support.",
             "img": "/images/projects/ui-animations2.png",
-            "tech": ["JavaScript", "html", "css", "OpenAI API", "Node.js"],
+            "tech": ["javascript", "html", "css", "node.js"],
             "url": "https://github.com/mishraShilpa-28/AIChatbot-with-ChatGPT-API/"
         },
         "8": {
             "title": "_Stock-Market-Forecasting",
             "description": "Uses Stacked LSTM networks to predict stock prices based on historical trends for smarter financial decisions.",
             "img": "/images/projects/ai-resources.png",
-            "tech": ["Python", "TensorFlow", "Keras", "Pandas", "Matplotlib"],
+            "tech": ["python", "tensorflow", "keras", "pandas", "matplotlib"],
             "url": "https://github.com/mishraShilpa-28/stock-market-forecasting/"
         },
         "9": {
             "title": "_Object-Detection-App",
             "description": "Real-time object detection using TensorFlow’s COCO-SSD model integrated into a React app.",
             "img": "/images/projects/worldmap.png",
-            "tech": ["TensorFlow", "React", "html", "css"],
+            "tech": ["tensorFlow", "react", "html", "css"],
             "url": "https://github.com/mishraShilpa-28/object-detection"
         },
         "10": {
             "title": "_Predict-Future-Sales",
             "description": "Time-series forecasting of product sales using XGBoost and regression models, based on Kaggle’s competition dataset.",
             "img": "/images/projects/ui-animations.png",
-            "tech": ["Python", "scikit-learn", "Pandas", "NumPy"],
+            "tech": ["python", "scikit-learn", "pandas", "numPy"],
             "url": "https://github.com/mishraShilpa-28/predict-future-sales#/"
         },
         "11": {
             "title": "_Sorting-Visualizer",
             "description": "Visual tool to demonstrate sorting algorithms like Bubble Sort, Merge Sort, and Quick Sort in action.",
             "img": "/images/projects/tetris-game.png",
-            "tech": ["JavaScript", "html", "css"],
+            "tech": ["javaScript", "html", "css"],
             "url": "https://github.com/mishraShilpa-28/sorting-visualizer/"
         },
         "12": {
             "title": "_Path-Finding-Visualizer",
             "description": "Interactive visualization of pathfinding algorithms such as A*, Dijkstra, and BFS with grid-based animation.",
             "img": "/images/projects/ethereum.png",
-            "tech": ["JavaScript", "html" ,"css"],
+            "tech": ["javascript", "html" ,"css"],
             "url": "https://github.com/mishraShilpa-28/path-finding-visualizer/"
         }
     }
