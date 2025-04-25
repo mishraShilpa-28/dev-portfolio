@@ -4,8 +4,7 @@
     "roles": [
         "Full-Stack Developer", 
         "UI/UX Designer",
-        "JavaScript Developer", 
-        "Machine Learning Expert"],
+        "JavaScript Developer",
     "about": {
         "sections": {
             "professional-info": {
@@ -75,7 +74,7 @@
             },
             "linkedin": {
                 "title": "LinkedIn profile",
-                "url": "www.linkedin.com/in/",
+                "url": "https://www.linkedin.com/in/",
                 "user": "shilpamishra28"
             },
             "fiverr": {
@@ -101,11 +100,6 @@
                     "title": "Instagram account",
                     "url": "https://instagram.com/",
                     "user": "username"
-                },
-                "twitch": {
-                    "title": "Twitch profile",
-                    "url": "https://twitch.com/",
-                    "user": "username"
                 }
             }
         }
@@ -115,47 +109,89 @@
         "2": "1d41f678f5692342c17af207da155baf"
     },
     "projects": {
-        "": {
-            "title": "_ui-animations",
-            "description": "Duis aute irure dolor in velit esse cillum dolore.",
+        "1": {
+            "title": "_Customer-Churn-Prediction",
+            "description": "Predicts whether telecom customers will stay, leave, or join using demographic and service-related data. Enhances customer retention strategies.",
             "img": "/images/projects/ui-animations2.png",
-            "tech": ["flutter"],
-            "url": "https://github.com/"
+            "tech": ["python", "pandas", "scikit-learn", "matplotlib"],
+            "url": "https://github.com/mishraShilpa-28/customer-churn-prediction"
         },
         "2": {
-            "title": "_ai-resources",
-            "description": "Duis aute irure dolor in velit esse cillum dolore.",
+            "title": "_Breast-Cancer-Detection",
+            "description": "Deep learning-based model for classifying histopathological images into benign or malignant categories using CNNs.",
             "img": "/images/projects/ai-resources.png",
-            "tech": ["gatsby"],
-            "url": "https://github.com/"
+            "tech": ["python", "tensorFlow", "openCV", "numPy"],
+            "url": "https://github.com/mishraShilpa-28/breast-cancer-detection/"
         },
         "3": {
-            "title": "_worldmap",
-            "description": "Duis aute irure dolor in velit esse cillum dolore.",
+            "title": "_AI-Powered-Resume-Screening",
+            "description": "Automatically parses and categorizes resumes, recommending jobs based on content using machine learning for smart hiring.",
             "img": "/images/projects/worldmap.png",
-            "tech": ["angular"],
-            "url": "https://github.com/"
+            "tech": ["python", "scikit-learn", "pandas", "regex"],
+            "url": "https://github.com/mishraShilpa-28/resume-screening-ML-categorization/"
         },
         "4": {
-            "title": "_ui-animations",
-            "description": "Duis aute irure dolor in velit esse cillum dolore.",
+            "title": "_Password-Strength-Tester-&-Cracker",
+            "description": "Java tool that evaluates password strength and simulates brute-force attacks for cybersecurity awareness and education.",
             "img": "/images/projects/ui-animations.png",
-            "tech": ["react"],
-            "url": "https://github.com/"
+            "tech": ["Java", "Regex"],
+            "url": "https://github.com/mishraShilpa-28/pwd-strength-tester-and-cracker/"
         },
         "5": {
-            "title": "_tetris-game",
-            "description": "Duis aute irure dolor in velit esse cillum dolore.",
+            "title": "_Phishing-Website-Detection",
+            "description": "Detects phishing websites using machine learning classification models trained on URL features and HTML patterns.",
             "img": "/images/projects/tetris-game.png",
-            "tech": ["react"],
-            "url": "https://github.com/"
+            "tech": ["Python", "Scikit-learn", "Pandas"],
+            "url": "https://github.com/mishraShilpa-28/Detecting-Phishing-Websites-using-ML/"
         },
         "6": {
-            "title": "_ethereum",
-            "description": "Duis aute irure dolor in velit esse cillum dolore.",
+            "title": "_Real-Time-Network-Traffic-Analyzer",
+            "description": "Real-time network packet analyzer with visual dashboards, filtering, Excel export, and cross-platform compatibility.",
             "img": "/images/projects/ethereum.png",
-            "tech": ["vue"],
-            "url": "https://github.com/"
+            "tech": ["Python", "WebSocket", "Next.js", "Pandas"],
+            "url": "https://github.com/mishraShilpa-28/real-time-network-traffic-analyzer/"
+        },
+        "7": {
+            "title": "_AI-Chatbot-with-ChatGPT-API",
+            "description": "A conversational AI chatbot integrated with the ChatGPT API for interactive, context-aware user support.",
+            "img": "/images/projects/ui-animations2.png",
+            "tech": ["JavaScript", "html", "css", "OpenAI API", "Node.js"],
+            "url": "https://github.com/mishraShilpa-28/AIChatbot-with-ChatGPT-API/"
+        },
+        "8": {
+            "title": "_Stock-Market-Forecasting",
+            "description": "Uses Stacked LSTM networks to predict stock prices based on historical trends for smarter financial decisions.",
+            "img": "/images/projects/ai-resources.png",
+            "tech": ["Python", "TensorFlow", "Keras", "Pandas", "Matplotlib"],
+            "url": "https://github.com/mishraShilpa-28/stock-market-forecasting/"
+        },
+        "9": {
+            "title": "_Object-Detection-App",
+            "description": "Real-time object detection using TensorFlow’s COCO-SSD model integrated into a React app.",
+            "img": "/images/projects/worldmap.png",
+            "tech": ["TensorFlow", "React", "html", "css"],
+            "url": "https://github.com/mishraShilpa-28/object-detection"
+        },
+        "10": {
+            "title": "_Predict-Future-Sales",
+            "description": "Time-series forecasting of product sales using XGBoost and regression models, based on Kaggle’s competition dataset.",
+            "img": "/images/projects/ui-animations.png",
+            "tech": ["Python", "scikit-learn", "Pandas", "NumPy"],
+            "url": "https://github.com/mishraShilpa-28/predict-future-sales#/"
+        },
+        "11": {
+            "title": "_Sorting-Visualizer",
+            "description": "Visual tool to demonstrate sorting algorithms like Bubble Sort, Merge Sort, and Quick Sort in action.",
+            "img": "/images/projects/tetris-game.png",
+            "tech": ["JavaScript", "html", "css"],
+            "url": "https://github.com/mishraShilpa-28/sorting-visualizer/"
+        },
+        "12": {
+            "title": "_Path-Finding-Visualizer",
+            "description": "Interactive visualization of pathfinding algorithms such as A*, Dijkstra, and BFS with grid-based animation.",
+            "img": "/images/projects/ethereum.png",
+            "tech": ["JavaScript", "html" ,"css"],
+            "url": "https://github.com/mishraShilpa-28/path-finding-visualizer/"
         }
     }
 }
