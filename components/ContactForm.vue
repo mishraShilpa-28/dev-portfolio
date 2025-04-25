@@ -36,13 +36,29 @@ export default {
         }
     },
     mounted() {
+        emailjs.init("_ePY2wc-SYEi4nM5J"); // Replace with your actual EmailJS public key
+
         document.getElementById("contact-form").addEventListener("submit", function(event) {
             event.preventDefault();
+            
+            // Get the values from the form
             const name = document.querySelector('input[name="name"]').value;
             const email = document.querySelector('input[name="email"]').value;
             const message = document.querySelector('textarea[name="message"]').value;
             
             // Here the code to send the email
+            // Send email using EmailJS
+            emailjs.send("service_wugm1lu", "template_n7vnxgy", {
+                from_name: document.querySelector('input[name="name"]').value,
+                from_email: document.querySelector('input[name="email"]').value,
+                message: document.querySelector('textarea[name="message"]').value,
+            })
+            .then(function(response) {
+                alert("Email sent successfully!");
+                document.getElementById("contact-form").reset();
+            }, function(error) {
+                alert("Failed to send email: " + JSON.stringify(error));
+            });
             
         });
     }
