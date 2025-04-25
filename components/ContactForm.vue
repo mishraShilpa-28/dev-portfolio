@@ -16,52 +16,33 @@
     </form>
 </template>
 
-<script>
-import emailjs from '@emailjs/browser';
 
-export default {
-    name: 'ContactForm',
-    props: {
-        name: {
-            type: String,
-            required: true
-        },
-        email: {
-            type: String,
-            required: true
-        },
-        message: {
-            type: String,
-            required: true
-        }
-    },
-    mounted() {
-        emailjs.init("_ePY2wc-SYEi4nM5J"); // Replace with your actual EmailJS public key
+<script setup>
+import { reactive } from 'vue'
+const { $emailjs } = useNuxtApp()
 
-        document.getElementById("contact-form").addEventListener("submit", function(event) {
-            event.preventDefault();
-            
-            // Get the values from the form
-            const name = document.querySelector('input[name="name"]').value;
-            const email = document.querySelector('input[name="email"]').value;
-            const message = document.querySelector('textarea[name="message"]').value;
-            
-            // Here the code to send the email
-            // Send email using EmailJS
-            emailjs.send("service_wugm1lu", "template_n7vnxgy", {
-                from_name: document.querySelector('input[name="name"]').value,
-                from_email: document.querySelector('input[name="email"]').value,
-                message: document.querySelector('textarea[name="message"]').value,
-            })
-            .then(function(response) {
-                alert("Email sent successfully!");
-                document.getElementById("contact-form").reset();
-            }, function(error) {
-                alert("Failed to send email: " + JSON.stringify(error));
-            });
-            
-        });
-    }
+const form = reactive({
+  name: '',
+  email: '',
+  message: ''
+})
+
+const onSubmit = async () => {
+  try {
+    await $emailjs.send("service_wugm1lu", "template_n7vnxgy", {
+      from_name: form.name,
+      from_email: form.email,
+      message: form.message
+    })
+    alert("Email sent successfully!")
+
+    // Reset form
+    form.name = ''
+    form.email = ''
+    form.message = ''
+  } catch (err) {
+    alert("Failed to send email: " + JSON.stringify(err))
+  }
 }
 </script>
 
