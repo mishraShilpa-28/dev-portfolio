@@ -120,7 +120,7 @@
             "title": "_Breast-Cancer-Detection",
             "description": "Deep learning-based model for classifying histopathological images into benign or malignant categories using CNNs.",
             "img": "/images/projects/ai-resources.png",
-            "tech": ["python", "tensorFlow", "openCV", "numPy"],
+            "tech": ["python", "tensorflow", "openCV", "numPy"],
             "url": "https://github.com/mishraShilpa-28/breast-cancer-detection/"
         },
         "3": {
@@ -169,7 +169,7 @@
             "title": "_Object-Detection-App",
             "description": "Real-time object detection using TensorFlow’s COCO-SSD model integrated into a React app.",
             "img": "/images/projects/worldmap.png",
-            "tech": ["tensorFlow", "react", "html", "css"],
+            "tech": ["tensorflow", "react", "html", "css"],
             "url": "https://github.com/mishraShilpa-28/object-detection"
         },
         "10": {
@@ -183,7 +183,7 @@
             "title": "_Sorting-Visualizer",
             "description": "Visual tool to demonstrate sorting algorithms like Bubble Sort, Merge Sort, and Quick Sort in action.",
             "img": "/images/projects/tetris-game.png",
-            "tech": ["javaScript", "html", "css"],
+            "tech": ["javascript", "html", "css"],
             "url": "https://github.com/mishraShilpa-28/sorting-visualizer/"
         },
         "12": {
