@@ -17,7 +17,7 @@
 </template>
 
 <script>
-
+import emailjs from '@emailjs/browser';
 
 export default {
     name: 'ContactForm',
