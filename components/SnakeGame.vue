@@ -200,15 +200,21 @@
             break;
         }
 
-        if (
-            newX >= 0 &&
-            newX < 24 &&
-            newY >= 0 &&
-            newY < 40 &&
-            !this.snake.find(
-                snakeCell => snakeCell.x === newX && snakeCell.y === newY
-            )
-        ) {
+        // Make snake loop through walls
+        if (newX < 0) {
+          newX = 23; // right edge
+        } else if (newX >= 24) {
+          newX = 0; // left edge
+        }
+
+        if (newY < 0) {
+          newY = 39; // bottom edge
+        } else if (newY >= 40) {
+          newY = 0; // top edge
+        }
+
+        // Now check collision with itself only
+        if (!this.snake.find(snakeCell => snakeCell.x === newX && snakeCell.y === newY)) {
           this.snake.unshift({ x: newX, y: newY });
 
           if (newX === this.food.x && newY === this.food.y) {
@@ -216,11 +222,11 @@
             const scoreFoods = document.getElementsByClassName("food");
             scoreFoods[this.score - 1].style.opacity = 1;
 
-            if(this.score === 10) {
+            if (this.score === 10) {
               this.snake.unshift({ x: newX, y: newY });
-              this.food = { x: null, y: null }
+              this.food = { x: null, y: null };
               clearInterval(this.gameInterval);
-              document.getElementById('congrats').style.display = 'block'
+              document.getElementById('congrats').style.display = 'block';
               this.gameOver = true;
               this.gameStarted = false;
             } else {
@@ -232,7 +238,7 @@
           }
         } else {
           clearInterval(this.gameInterval);
-          document.getElementById('game-over').style.display = 'block'
+          document.getElementById('game-over').style.display = 'block';
           this.gameStarted = false;
           this.gameOver = true;
         }

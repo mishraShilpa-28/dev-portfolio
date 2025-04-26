@@ -25,7 +25,7 @@
 
 				</span>
 				<span :class="{hide: !isMobile}">
-					// find my profile on Github:
+					// find my profile on Linkedin:
 				</span>
 				<p class="code">
 					<span class="identifier">
@@ -37,8 +37,8 @@
 					<span class="operator">
 						=
 					</span>
-					<a class="string" :href="'https://github.com/' + config.contacts.social.github.user">
-						"https://github.com/{{ config.contacts.social.github.user }}"
+					<a class="string" :href="'https://linkedin.com/in/' + config.contacts.social.linkedin.user">
+						"https://linkedin.com/in/{{ config.contacts.social.linkedin.user }}"
 					</a>
 				</p>
 			</div>

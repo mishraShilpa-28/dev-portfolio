@@ -2,9 +2,13 @@
     "name": "Shilpa Mishra",
     "logo_name": "_Shilpa-Mishra.exe",
     "roles": [
+        "",
         "Full-Stack Developer", 
         "UI/UX Designer",
-        "JavaScript Developer"],
+        "AI & ML Enthusiast",
+        "Java Developer",
+        "JavaScript Developer",
+        "Python Developer"],
     "about": {
         "sections": {
             "professional-info": {
@@ -110,86 +114,86 @@
     },
     "projects": {
         "1": {
-            "title": "_Customer-Churn-Prediction",
-            "description": "Predicts whether telecom customers will stay, leave, or join using demographic and service-related data. Enhances customer retention strategies.",
-            "img": "/images/projects/ui-animations2.png",
+            "title": "_Churn-Predictor",
+            "description": "ML model to predict telecom customer churn using demographics and service features.",
+            "img": "/images/projects/_Churn-Predictor.png",
             "tech": ["python", "pandas", "scikit-learn", "matplotlib"],
             "url": "https://github.com/mishraShilpa-28/customer-churn-prediction"
         },
         "2": {
-            "title": "_Breast-Cancer-Detection",
-            "description": "Deep learning-based model for classifying histopathological images into benign or malignant categories using CNNs.",
-            "img": "/images/projects/ai-resources.png",
+            "title": "_Cancer-Classifier",
+            "description": "CNN-based model to classify histopathology images as benign or malignant.",
+            "img": "/images/projects/_Cancer-Classifier.png",
             "tech": ["python", "tensorflow", "openCV", "numPy"],
             "url": "https://github.com/mishraShilpa-28/breast-cancer-detection/"
         },
         "3": {
-            "title": "_AI-Powered-Resume-Screening",
-            "description": "Automatically parses and categorizes resumes, recommending jobs based on content using machine learning for smart hiring.",
+            "title": "_Smart-Resume-Screener",
+            "description": "ML tool to parse resumes and suggest job matches using keyword extraction.",
             "img": "/images/projects/worldmap.png",
             "tech": ["python", "scikit-learn", "pandas"],
             "url": "https://github.com/mishraShilpa-28/resume-screening-ML-categorization/"
         },
         "4": {
-            "title": "_Password-Strength-Tester-&-Cracker",
-            "description": "Java tool that evaluates password strength and simulates brute-force attacks for cybersecurity awareness and education.",
-            "img": "/images/projects/ui-animations.png",
+            "title": "_Password-Auditor",
+            "description": "Java tool to rate password strength and simulate brute-force crack attempts.",
+            "img": "/images/projects/_Password-Auditor.png",
             "tech": ["java"],
             "url": "https://github.com/mishraShilpa-28/pwd-strength-tester-and-cracker/"
         },
         "5": {
-            "title": "_Phishing-Website-Detection",
-            "description": "Detects phishing websites using machine learning classification models trained on URL features and HTML patterns.",
-            "img": "/images/projects/tetris-game.png",
+            "title": "_Phishing-Detector",
+            "description": "ML classifier to detect phishing sites using URL features and HTML content.",
+            "img": "/images/projects/_Phishing-Detector.png",
             "tech": ["python", "scikit-learn", "pandas"],
             "url": "https://github.com/mishraShilpa-28/Detecting-Phishing-Websites-using-ML/"
         },
         "6": {
-            "title": "_Real-Time-Network-Traffic-Analyzer",
-            "description": "Real-time network packet analyzer with visual dashboards, filtering, Excel export, and cross-platform compatibility.",
-            "img": "/images/projects/ethereum.png",
+            "title": "_Network-Packet-Watch",
+            "description": "Real-time packet analyzer with dashboards, filters, and Excel export support.",
+            "img": "/images/projects/_Network-Packet-Watch.png",
             "tech": ["python", "next.js", "pandas"],
             "url": "https://github.com/mishraShilpa-28/real-time-network-traffic-analyzer/"
         },
         "7": {
-            "title": "_AI-Chatbot-with-ChatGPT-API",
-            "description": "A conversational AI chatbot integrated with the ChatGPT API for interactive, context-aware user support.",
-            "img": "/images/projects/ui-animations2.png",
+            "title": "_ChatGPT-Help-Bot",
+            "description": "Interactive AI chatbot built with ChatGPT API for contextual user support.",
+            "img": "/images/projects/_ChatGPT-Help-Bot.png",
             "tech": ["javascript", "html", "css", "node.js"],
             "url": "https://github.com/mishraShilpa-28/AIChatbot-with-ChatGPT-API/"
         },
         "8": {
-            "title": "_Stock-Market-Forecasting",
-            "description": "Uses Stacked LSTM networks to predict stock prices based on historical trends for smarter financial decisions.",
-            "img": "/images/projects/ai-resources.png",
+            "title": "_Stock-Trend-Forecaster",
+            "description": "Stacked LSTM model to forecast stock prices using historical time series data.",
+            "img": "/images/projects/_Stock-Trend-Forecaster.png",
             "tech": ["python", "tensorflow", "keras", "pandas", "matplotlib"],
             "url": "https://github.com/mishraShilpa-28/stock-market-forecasting/"
         },
         "9": {
-            "title": "_Object-Detection-App",
-            "description": "Real-time object detection using TensorFlow’s COCO-SSD model integrated into a React app.",
-            "img": "/images/projects/worldmap.png",
+            "title": "_Object-Spotter-App",
+            "description": "React app for real-time object detection using TensorFlow’s COCO-SSD model.",
+            "img": "/images/projects/_Object-Spotter-App.png",
             "tech": ["tensorflow", "react", "html", "css"],
             "url": "https://github.com/mishraShilpa-28/object-detection"
         },
         "10": {
-            "title": "_Predict-Future-Sales",
-            "description": "Time-series forecasting of product sales using XGBoost and regression models, based on Kaggle’s competition dataset.",
-            "img": "/images/projects/ui-animations.png",
+            "title": "_Sales-Forecast-Engine",
+            "description": "Predicts future product sales using regression models and XGBoost.",
+            "img": "/images/projects/_Sales-Forecast-Engine.png",
             "tech": ["python", "scikit-learn", "pandas", "numPy"],
             "url": "https://github.com/mishraShilpa-28/predict-future-sales#/"
         },
         "11": {
             "title": "_Sorting-Visualizer",
-            "description": "Visual tool to demonstrate sorting algorithms like Bubble Sort, Merge Sort, and Quick Sort in action.",
-            "img": "/images/projects/tetris-game.png",
+            "description": "JS tool to animate Bubble, Merge, and Quick Sort algorithms in real-time.",
+            "img": "/images/projects/_Sorting-Visualizer.png",
             "tech": ["javascript", "html", "css"],
             "url": "https://github.com/mishraShilpa-28/sorting-visualizer/"
         },
         "12": {
-            "title": "_Path-Finding-Visualizer",
-            "description": "Interactive visualization of pathfinding algorithms such as A*, Dijkstra, and BFS with grid-based animation.",
-            "img": "/images/projects/ethereum.png",
+            "title": "_Path-finding-Visualizer",
+            "description": "Grid-based visualizer for A*, BFS, and Dijkstra path finding algorithms.",
+            "img": "/images/projects/_Path-finding-Visualizer.png",
             "tech": ["javascript", "html" ,"css"],
             "url": "https://github.com/mishraShilpa-28/path-finding-visualizer/"
         }
