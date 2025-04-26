@@ -1,5 +1,5 @@
 const config = require('./developer.json')
-const siteTitle = `${config.name} | ${config.role}`
+const siteTitle = `${config.logo_name}`
 
 
 /*
