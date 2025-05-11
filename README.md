@@ -16,7 +16,6 @@ Check out my portfolio live at: [**[Portfolio URL]**](https://dev-portfolio-teal
 - 💡 **Dynamic Project Showcase**
 - 🔗 **Social Media Links**
 - 📩 **Contact Form with Email Integration**
-- 🌙 **Dark Mode Support (if added)**
 
 ## 📦 Installation & Setup
 ### Prerequisites
