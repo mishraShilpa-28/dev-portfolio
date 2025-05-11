@@ -114,88 +114,130 @@
     },
     "projects": {
         "1": {
-            "title": "_Churn-Predictor",
-            "description": "ML model to predict telecom customer churn using demographics and service features.",
-            "img": "/images/projects/_Churn-Predictor.png",
-            "tech": ["python", "pandas", "scikit-learn", "matplotlib"],
-            "url": "https://github.com/mishraShilpa-28/customer-churn-prediction"
+          "title": "Wealth Wise",
+          "description": "An AI-driven personal finance management platform that empowers users with financial clarity and control. Built with Next.js for a responsive frontend, Supabase and PostgreSQL for robust data storage, Clerk for secure authentication (including Google SSO), and Prisma ORM. Features include manual transaction logging and AI-powered receipt scanning via Gemini, budget setting with email alerts through Resend, automated recurring payments managed by Inngest background jobs, data visualization with Recharts, and Arcjet bot-protection and rate-limiting for secure API access. The intuitive onboarding flow guides new users to create accounts and transactions seamlessly, while monthly AI-driven insights and automatically emailed financial reports help users optimize spending and saving habits.",
+          "img": "/images/projects/Wealth-Wise.png",
+          "tech": ["Next.js", "React", "Tailwind CSS", "Shadcn/UI", "Supabase", "PostgreSQL", "Prisma", "Clerk", "Google SSO", "Gemini AI", "Resend", "Inngest", "Recharts", "Arcjet", "JavaScript", "TypeScript"],
+          "url": "https://github.com/mishraShilpa-28/Wealth-Wise"
         },
         "2": {
-            "title": "_Cancer-Classifier",
-            "description": "CNN-based model to classify histopathology images as benign or malignant.",
-            "img": "/images/projects/_Cancer-Classifier.png",
-            "tech": ["python", "tensorflow", "openCV", "numPy"],
-            "url": "https://github.com/mishraShilpa-28/breast-cancer-detection/"
+          "title": "Find My Car",
+          "description": "An AI-powered car marketplace that transforms how users discover and purchase vehicles. Built with Next.js, Supabase, and Prisma on the backend, and Tailwind CSS with Shadcn/UI for a modern, mobile-friendly frontend. Users can upload a car image to find similar listings through AI image recognition, refine searches by make, model, price, and more, and book test drives with real-time slot availability. Admins access analytics dashboards for sales and bookings, manage inventory with AI-assisted detail population, and oversee test drive schedules. Role-based access control, responsive design, and shareable car pages complete the seamless user experience.",
+          "img": "/images/projects/Find-My-Car.png",
+          "tech": ["Next.js", "React", "Tailwind CSS", "Shadcn/UI", "Supabase", "PostgreSQL", "Prisma", "Clerk", "AI Image Recognition", "TypeScript", "JavaScript"],
+          "url": "https://github.com/mishraShilpa-28/Find-My-Car"
         },
         "3": {
-            "title": "_Smart-Resume-Screener",
-            "description": "ML tool to parse resumes and suggest job matches using keyword extraction.",
-            "img": "/images/projects/worldmap.png",
-            "tech": ["python", "scikit-learn", "pandas"],
-            "url": "https://github.com/mishraShilpa-28/resume-screening-ML-categorization/"
+          "title": "WhisperWave",
+          "description": "A real-time chat application built on the MERN stack and Socket.io, offering instant messaging with robust authentication and profile management. Features include JWT-based sign-up and login with Bcryptjs password hashing, profile photo uploads, user search, and Redux-powered state management for smooth interactions. The UI leverages Tailwind CSS and Daisy UI for responsiveness, ensuring a seamless experience across devices. WhisperWave demonstrates expertise in full-stack development, real-time communication protocols, and secure, user-centric design.",
+          "img": "/images/projects/WhisperWave.png",
+          "tech": ["Node.js", "Express.js", "MongoDB", "React", "Redux", "Socket.io", "JWT", "Bcryptjs", "Tailwind CSS", "Daisy UI", "JavaScript"],
+          "url": "https://github.com/mishraShilpa-28/WhisperWave"
         },
         "4": {
-            "title": "_Password-Auditor",
-            "description": "Java tool to rate password strength and simulate brute-force crack attempts.",
-            "img": "/images/projects/_Password-Auditor.png",
-            "tech": ["java"],
-            "url": "https://github.com/mishraShilpa-28/pwd-strength-tester-and-cracker/"
+          "title": "Learnify",
+          "description": "An AI-powered Learning Management System built with the MERN stack that enhances online education for students and instructors. Instructors can create, edit, and publish courses with video lessons, categorize them by level and price, and upload thumbnails. Students enroll via Stripe payments, track progress in a personalized dashboard, and explore courses through keyword search and filters. The admin dashboard provides real-time revenue and enrollment analytics. Features include secure authentication, protected routes, light/dark mode toggle, skeleton loaders, and a responsive UI crafted with Tailwind CSS.",
+          "img": "/images/projects/Learnify.png",
+          "tech": ["MongoDB", "Express.js", "React.js", "Node.js", "Stripe", "Tailwind CSS", "MERN Stack", "JavaScript"],
+          "url": "https://github.com/mishraShilpa-28/learnify"
         },
         "5": {
-            "title": "_Phishing-Detector",
-            "description": "ML classifier to detect phishing sites using URL features and HTML content.",
-            "img": "/images/projects/_Phishing-Detector.png",
-            "tech": ["python", "scikit-learn", "pandas"],
-            "url": "https://github.com/mishraShilpa-28/Detecting-Phishing-Websites-using-ML/"
+          "title": "Food App – MERN Stack Restaurant Website",
+          "description": "A production-ready restaurant website leveraging the MERN stack, TypeScript, and modern UI libraries. Implements ShadCN/UI and Tailwind CSS for a sleek, responsive design; advanced authentication with 6-digit token verification and password recovery; role-based admin and user accounts; Zod schema validation; Zustand for state management; and Stripe integration with webhooks for payments. Additional features include Mailtrap email testing, Cloudinary image hosting, search and filtering for menus, light/dark mode toggle, cart management, order tracking, and elegant skeleton loaders.",
+          "img": "/images/projects/restaurant-website-mern.png",
+          "tech": ["MongoDB", "Express.js", "React.js", "Node.js", "TypeScript", "Tailwind CSS", "ShadCN/UI", "Zustand", "Zod", "Stripe", "Stripe Webhooks", "Mailtrap", "Cloudinary"],
+          "url": "https://github.com/mishraShilpa-28/restaurant-website-mern"
         },
         "6": {
-            "title": "_Network-Packet-Watch",
-            "description": "Real-time packet analyzer with dashboards, filters, and Excel export support.",
-            "img": "/images/projects/_Network-Packet-Watch.png",
-            "tech": ["python", "next.js", "pandas"],
-            "url": "https://github.com/mishraShilpa-28/real-time-network-traffic-analyzer/"
+          "title": "Dev Portfolio",
+          "description": "A modern developer portfolio built with Vue 3 and Nuxt.js, showcasing projects, social links, and a contact form. Features dynamic project listings, responsive layout with Tailwind CSS, GSAP/Framer Motion animations, dark mode support, and seamless Vercel deployment. Inspired by the open-source Developer Portfolio v2, this portfolio highlights personal branding and best practices in frontend development and UX design.",
+          "img": "/images/projects/dev-portfolio.png",
+          "tech": ["Vue 3", "Nuxt.js", "Tailwind CSS", "GSAP", "Framer Motion", "Vercel", "JavaScript"],
+          "url": "https://github.com/mishraShilpa-28/dev-portfolio"
         },
         "7": {
-            "title": "_ChatGPT-Help-Bot",
-            "description": "Interactive AI chatbot built with ChatGPT API for contextual user support.",
-            "img": "/images/projects/_ChatGPT-Help-Bot.png",
-            "tech": ["javascript", "html", "css", "node.js"],
-            "url": "https://github.com/mishraShilpa-28/AIChatbot-with-ChatGPT-API/"
+          "title": "_Churn-Predictor",
+          "description": "ML model to predict telecom customer churn using demographics and service features.",
+          "img": "/images/projects/_Churn-Predictor.png",
+          "tech": ["python", "pandas", "scikit-learn", "matplotlib"],
+          "url": "https://github.com/mishraShilpa-28/customer-churn-prediction"
         },
         "8": {
-            "title": "_Stock-Trend-Forecaster",
-            "description": "Stacked LSTM model to forecast stock prices using historical time series data.",
-            "img": "/images/projects/_Stock-Trend-Forecaster.png",
-            "tech": ["python", "tensorflow", "keras", "pandas", "matplotlib"],
-            "url": "https://github.com/mishraShilpa-28/stock-market-forecasting/"
+          "title": "_Cancer-Classifier",
+          "description": "CNN-based model to classify histopathology images as benign or malignant.",
+          "img": "/images/projects/_Cancer-Classifier.png",
+          "tech": ["python", "tensorflow", "openCV", "numPy"],
+          "url": "https://github.com/mishraShilpa-28/breast-cancer-detection/"
         },
         "9": {
-            "title": "_Object-Spotter-App",
-            "description": "React app for real-time object detection using TensorFlow’s COCO-SSD model.",
-            "img": "/images/projects/_Object-Spotter-App.png",
-            "tech": ["tensorflow", "react", "html", "css"],
-            "url": "https://github.com/mishraShilpa-28/object-detection"
+          "title": "_Smart-Resume-Screener",
+          "description": "ML tool to parse resumes and suggest job matches using keyword extraction.",
+          "img": "/images/projects/worldmap.png",
+          "tech": ["python", "scikit-learn", "pandas"],
+          "url": "https://github.com/mishraShilpa-28/resume-screening-ML-categorization/"
         },
         "10": {
-            "title": "_Sales-Forecast-Engine",
-            "description": "Predicts future product sales using regression models and XGBoost.",
-            "img": "/images/projects/_Sales-Forecast-Engine.png",
-            "tech": ["python", "scikit-learn", "pandas", "numPy"],
-            "url": "https://github.com/mishraShilpa-28/predict-future-sales#/"
+          "title": "_Password-Auditor",
+          "description": "Java tool to rate password strength and simulate brute-force crack attempts.",
+          "img": "/images/projects/_Password-Auditor.png",
+          "tech": ["java"],
+          "url": "https://github.com/mishraShilpa-28/pwd-strength-tester-and-cracker/"
         },
         "11": {
-            "title": "_Sorting-Visualizer",
-            "description": "JS tool to animate Bubble, Merge, and Quick Sort algorithms in real-time.",
-            "img": "/images/projects/_Sorting-Visualizer.png",
-            "tech": ["javascript", "html", "css"],
-            "url": "https://github.com/mishraShilpa-28/sorting-visualizer/"
+          "title": "_Phishing-Detector",
+          "description": "ML classifier to detect phishing sites using URL features and HTML content.",
+          "img": "/images/projects/_Phishing-Detector.png",
+          "tech": ["python", "scikit-learn", "pandas"],
+          "url": "https://github.com/mishraShilpa-28/Detecting-Phishing-Websites-using-ML/"
         },
         "12": {
-            "title": "_Path-finding-Visualizer",
-            "description": "Grid-based visualizer for A*, BFS, and Dijkstra path finding algorithms.",
-            "img": "/images/projects/_Path-finding-Visualizer.png",
-            "tech": ["javascript", "html" ,"css"],
-            "url": "https://github.com/mishraShilpa-28/path-finding-visualizer/"
+          "title": "_Network-Packet-Watch",
+          "description": "Real-time packet analyzer with dashboards, filters, and Excel export support.",
+          "img": "/images/projects/_Network-Packet-Watch.png",
+          "tech": ["python", "next.js", "pandas"],
+          "url": "https://github.com/mishraShilpa-28/real-time-network-traffic-analyzer/"
+        },
+        "13": {
+          "title": "_ChatGPT-Help-Bot",
+          "description": "Interactive AI chatbot built with ChatGPT API for contextual user support.",
+          "img": "/images/projects/_ChatGPT-Help-Bot.png",
+          "tech": ["javascript", "html", "css", "node.js"],
+          "url": "https://github.com/mishraShilpa-28/AIChatbot-with-ChatGPT-API/"
+        },
+        "14": {
+          "title": "_Stock-Trend-Forecaster",
+          "description": "Stacked LSTM model to forecast stock prices using historical time series data.",
+          "img": "/images/projects/_Stock-Trend-Forecaster.png",
+          "tech": ["python", "tensorflow", "keras", "pandas", "matplotlib"],
+          "url": "https://github.com/mishraShilpa-28/stock-market-forecasting/"
+        },
+        "15": {
+          "title": "_Object-Spotter-App",
+          "description": "React app for real-time object detection using TensorFlow’s COCO-SSD model.",
+          "img": "/images/projects/_Object-Spotter-App.png",
+          "tech": ["tensorflow", "react", "html", "css"],
+          "url": "https://github.com/mishraShilpa-28/object-detection"
+        },
+        "16": {
+          "title": "_Sales-Forecast-Engine",
+          "description": "Predicts future product sales using regression models and XGBoost.",
+          "img": "/images/projects/_Sales-Forecast-Engine.png",
+          "tech": ["python", "scikit-learn", "pandas", "numPy"],
+          "url": "https://github.com/mishraShilpa-28/predict-future-sales#/"
+        },
+        "17": {
+          "title": "_Sorting-Visualizer",
+          "description": "JS tool to animate Bubble, Merge, and Quick Sort algorithms in real-time.",
+          "img": "/images/projects/_Sorting-Visualizer.png",
+          "tech": ["javascript", "html", "css"],
+          "url": "https://github.com/mishraShilpa-28/sorting-visualizer/"
+        },
+        "18": {
+          "title": "_Path-finding-Visualizer",
+          "description": "Grid-based visualizer for A*, BFS, and Dijkstra path finding algorithms.",
+          "img": "/images/projects/_Path-finding-Visualizer.png",
+          "tech": ["javascript", "html", "css"],
+          "url": "https://github.com/mishraShilpa-28/path-finding-visualizer/"
         }
     }
 }
