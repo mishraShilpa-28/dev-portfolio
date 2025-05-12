@@ -114,43 +114,43 @@
     },
     "projects": {
         "1": {
-          "title": "Wealth Wise",
-          "description": "An AI-driven personal finance management platform that empowers users with financial clarity and control. Built with Next.js for a responsive frontend, Supabase and PostgreSQL for robust data storage, Clerk for secure authentication (including Google SSO), and Prisma ORM. Features include manual transaction logging and AI-powered receipt scanning via Gemini, budget setting with email alerts through Resend, automated recurring payments managed by Inngest background jobs, data visualization with Recharts, and Arcjet bot-protection and rate-limiting for secure API access. The intuitive onboarding flow guides new users to create accounts and transactions seamlessly, while monthly AI-driven insights and automatically emailed financial reports help users optimize spending and saving habits.",
+          "title": "_Wealth-Wise",
+          "description": "AI-driven finance app tracks spending, sends alerts, and delivers monthly insights..",
           "img": "/images/projects/Wealth-Wise.png",
-          "tech": ["Next.js", "React", "Tailwind CSS", "Shadcn/UI", "Supabase", "PostgreSQL", "Prisma", "Clerk", "Google SSO", "Gemini AI", "Resend", "Inngest", "Recharts", "Arcjet", "JavaScript", "TypeScript"],
+          "tech": ["Next.js", "React", "Tailwind CSS","Supabase", "PostgreSQL", "Prisma", "JavaScript", "TypeScript"],
           "url": "https://github.com/mishraShilpa-28/Wealth-Wise"
         },
         "2": {
-          "title": "Find My Car",
-          "description": "An AI-powered car marketplace that transforms how users discover and purchase vehicles. Built with Next.js, Supabase, and Prisma on the backend, and Tailwind CSS with Shadcn/UI for a modern, mobile-friendly frontend. Users can upload a car image to find similar listings through AI image recognition, refine searches by make, model, price, and more, and book test drives with real-time slot availability. Admins access analytics dashboards for sales and bookings, manage inventory with AI-assisted detail population, and oversee test drive schedules. Role-based access control, responsive design, and shareable car pages complete the seamless user experience.",
+          "title": "_Find-My-Car",
+          "description": "AI car marketplace finds similar vehicles via images and books test drives instantly.",
           "img": "/images/projects/Find-My-Car.png",
-          "tech": ["Next.js", "React", "Tailwind CSS", "Shadcn/UI", "Supabase", "PostgreSQL", "Prisma", "Clerk", "AI Image Recognition", "TypeScript", "JavaScript"],
+          "tech": ["Next.js", "React", "Tailwind CSS", "Supabase", "PostgreSQL", "Prisma", "TypeScript", "JavaScript"],
           "url": "https://github.com/mishraShilpa-28/Find-My-Car"
         },
         "3": {
-          "title": "WhisperWave",
-          "description": "A real-time chat application built on the MERN stack and Socket.io, offering instant messaging with robust authentication and profile management. Features include JWT-based sign-up and login with Bcryptjs password hashing, profile photo uploads, user search, and Redux-powered state management for smooth interactions. The UI leverages Tailwind CSS and Daisy UI for responsiveness, ensuring a seamless experience across devices. WhisperWave demonstrates expertise in full-stack development, real-time communication protocols, and secure, user-centric design.",
+          "title": "_Whisper-Wave",
+          "description": "Real-time chat app with user search, secure login, and seamless cross-device messaging.",
           "img": "/images/projects/WhisperWave.png",
-          "tech": ["Node.js", "Express.js", "MongoDB", "React", "Redux", "Socket.io", "JWT", "Bcryptjs", "Tailwind CSS", "Daisy UI", "JavaScript"],
+          "tech": ["Node.js", "Express.js", "MongoDB", "React", "Redux", "Tailwind CSS", "JavaScript"],
           "url": "https://github.com/mishraShilpa-28/WhisperWave"
         },
         "4": {
-          "title": "Learnify",
-          "description": "An AI-powered Learning Management System built with the MERN stack that enhances online education for students and instructors. Instructors can create, edit, and publish courses with video lessons, categorize them by level and price, and upload thumbnails. Students enroll via Stripe payments, track progress in a personalized dashboard, and explore courses through keyword search and filters. The admin dashboard provides real-time revenue and enrollment analytics. Features include secure authentication, protected routes, light/dark mode toggle, skeleton loaders, and a responsive UI crafted with Tailwind CSS.",
+          "title": "_Learnify",
+          "description": "AI-powered LMS for course creation, student progress tracking, and real-time analytics.",
           "img": "/images/projects/Learnify.png",
           "tech": ["MongoDB", "Express.js", "React.js", "Node.js", "Stripe", "Tailwind CSS", "MERN Stack", "JavaScript"],
           "url": "https://github.com/mishraShilpa-28/learnify"
         },
         "5": {
-          "title": "Food App – MERN Stack Restaurant Website",
-          "description": "A production-ready restaurant website leveraging the MERN stack, TypeScript, and modern UI libraries. Implements ShadCN/UI and Tailwind CSS for a sleek, responsive design; advanced authentication with 6-digit token verification and password recovery; role-based admin and user accounts; Zod schema validation; Zustand for state management; and Stripe integration with webhooks for payments. Additional features include Mailtrap email testing, Cloudinary image hosting, search and filtering for menus, light/dark mode toggle, cart management, order tracking, and elegant skeleton loaders.",
+          "title": "_FoodApp : MERN-Stack-Restaurant-Website",
+          "description": "Full-featured restaurant site with secure auth, payments, order tracking, and menu search.",
           "img": "/images/projects/restaurant-website-mern.png",
-          "tech": ["MongoDB", "Express.js", "React.js", "Node.js", "TypeScript", "Tailwind CSS", "ShadCN/UI", "Zustand", "Zod", "Stripe", "Stripe Webhooks", "Mailtrap", "Cloudinary"],
+          "tech": ["MongoDB", "Express.js", "React.js", "Node.js", "TypeScript", "Tailwind CSS"],
           "url": "https://github.com/mishraShilpa-28/restaurant-website-mern"
         },
         "6": {
-          "title": "Dev Portfolio",
-          "description": "A modern developer portfolio built with Vue 3 and Nuxt.js, showcasing projects, social links, and a contact form. Features dynamic project listings, responsive layout with Tailwind CSS, GSAP/Framer Motion animations, dark mode support, and seamless Vercel deployment. Inspired by the open-source Developer Portfolio v2, this portfolio highlights personal branding and best practices in frontend development and UX design.",
+          "title": "_Dev-Portfolio",
+          "description": "Modern developer portfolio with projects, contact form, animations, and dark mode.",
           "img": "/images/projects/dev-portfolio.png",
           "tech": ["Vue 3", "Nuxt.js", "Tailwind CSS", "GSAP", "Framer Motion", "Vercel", "JavaScript"],
           "url": "https://github.com/mishraShilpa-28/dev-portfolio"
