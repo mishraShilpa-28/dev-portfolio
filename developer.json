@@ -117,42 +117,42 @@
           "title": "_Wealth-Wise",
           "description": "AI-driven finance app tracks spending, sends alerts, and delivers monthly insights..",
           "img": "/images/projects/Wealth-Wise.png",
-          "tech": ["Next.js", "React", "Tailwind CSS","Supabase", "PostgreSQL", "Prisma", "JavaScript", "TypeScript"],
+          "tech": ["next.js", "react", "tailwind", "postgreSQL", "javascript", "typeScript"],
           "url": "https://github.com/mishraShilpa-28/Wealth-Wise"
         },
         "2": {
           "title": "_Find-My-Car",
           "description": "AI car marketplace finds similar vehicles via images and books test drives instantly.",
           "img": "/images/projects/Find-My-Car.png",
-          "tech": ["Next.js", "React", "Tailwind CSS", "Supabase", "PostgreSQL", "Prisma", "TypeScript", "JavaScript"],
+          "tech": ["next.js", "react", "tailwind", "postgreSQL", "typeScript", "javascript"],
           "url": "https://github.com/mishraShilpa-28/Find-My-Car"
         },
         "3": {
           "title": "_Whisper-Wave",
           "description": "Real-time chat app with user search, secure login, and seamless cross-device messaging.",
           "img": "/images/projects/WhisperWave.png",
-          "tech": ["Node.js", "Express.js", "MongoDB", "React", "Redux", "Tailwind CSS", "JavaScript"],
+          "tech": ["node.js", "express.js", "mongoDB", "react", "Redux", "tailwind", "javascript"],
           "url": "https://github.com/mishraShilpa-28/WhisperWave"
         },
         "4": {
           "title": "_Learnify",
           "description": "AI-powered LMS for course creation, student progress tracking, and real-time analytics.",
           "img": "/images/projects/Learnify.png",
-          "tech": ["MongoDB", "Express.js", "React.js", "Node.js", "Stripe", "Tailwind CSS", "MERN Stack", "JavaScript"],
+          "tech": ["mongoDB", "express.js", "react", "node.js", "tailwind", "javascript"],
           "url": "https://github.com/mishraShilpa-28/learnify"
         },
         "5": {
           "title": "_FoodApp : MERN-Stack-Restaurant-Website",
           "description": "Full-featured restaurant site with secure auth, payments, order tracking, and menu search.",
           "img": "/images/projects/restaurant-website-mern.png",
-          "tech": ["MongoDB", "Express.js", "React.js", "Node.js", "TypeScript", "Tailwind CSS"],
+          "tech": ["mongoDB", "express.js", "react", "node.js", "typeScript", "tailwind"],
           "url": "https://github.com/mishraShilpa-28/restaurant-website-mern"
         },
         "6": {
           "title": "_Dev-Portfolio",
           "description": "Modern developer portfolio with projects, contact form, animations, and dark mode.",
           "img": "/images/projects/dev-portfolio.png",
-          "tech": ["Vue 3", "Nuxt.js", "Tailwind CSS", "GSAP", "Framer Motion", "Vercel", "JavaScript"],
+          "tech": ["vue.js", "nuxt.js", "tailwind", "javascript"],
           "url": "https://github.com/mishraShilpa-28/dev-portfolio"
         },
         "7": {
