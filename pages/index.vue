@@ -25,20 +25,20 @@
 
 				</span>
 				<span :class="{hide: !isMobile}">
-					// find my profile on Linkedin:
+					// You can checkout my resume:
 				</span>
 				<p class="code">
 					<span class="identifier">
 						const
 					</span>
 					<span class="variable-name">
-						linkedinLink
+            _Resume-URL
 					</span>
 					<span class="operator">
 						=
 					</span>
-					<a class="string" :href="'https://linkedin.com/in/' + config.contacts.social.linkedin.user">
-						"https://linkedin.com/in/{{ config.contacts.social.linkedin.user}}/"
+					<a class="string" :href="'https://drive.google.com/file/d/19yXKJEpYX3md_lsfo_cJFEsGNAQdWIXB/view'">
+						"https://drive.google.com/file/d/19yXKJEpYX3md_lsfo_cJFEsGNAQdWIXB/view"
 					</a>
 				</p>
 			</div>
