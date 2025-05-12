@@ -80,7 +80,29 @@ import DevConfig from '~/developer.json';
 
 const config = ref(DevConfig)
 
-const techs = ['react', 'html', 'css', 'vue.js', 'pandas', 'scikit-learn', 'matplotlib', 'spring', 'tensorflow', 'openCV', 'numPy', 'java', 'javascript', 'node.js', 'next.js', 'keras']
+const techs = ['next.js',
+  'react',
+  'tailwind',
+  'postgresSQL',
+  'javascript',
+  'typeScript',
+  'node.js',
+  'express.js',
+  'mongoDB',
+  'redux',
+  'vue.js',
+  'nuxt.js',
+  'python',
+  'pandas',
+  'scikit-learn',
+  'matplotlib',
+  'tensorflow',
+  'openCV',
+  'numPy',
+  'java',
+  'html',
+  'css',
+  'keras']
 const filters = ref(['all'])
 const showFilters = ref(true)
 const projects = ref(config.value.projects)

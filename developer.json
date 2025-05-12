@@ -131,7 +131,7 @@
           "title": "_Whisper-Wave",
           "description": "Real-time chat app with user search, secure login, and seamless cross-device messaging.",
           "img": "/images/projects/WhisperWave.png",
-          "tech": ["node.js", "express.js", "mongoDB", "react", "Redux", "tailwind", "javascript"],
+          "tech": ["node.js", "express.js", "mongoDB", "react", "redux", "tailwind", "javascript"],
           "url": "https://github.com/mishraShilpa-28/WhisperWave"
         },
         "4": {
