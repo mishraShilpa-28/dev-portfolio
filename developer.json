@@ -117,14 +117,14 @@
           "title": "_Wealth-Wise",
           "description": "AI-driven finance app tracks spending, sends alerts, and delivers monthly insights..",
           "img": "/images/projects/Wealth-Wise.png",
-          "tech": ["next.js", "react", "tailwind", "postgreSQL", "javascript", "typeScript"],
+          "tech": ["next.js", "react", "tailwind", "postgresSQL", "javascript", "typeScript"],
           "url": "https://github.com/mishraShilpa-28/Wealth-Wise"
         },
         "2": {
           "title": "_Find-My-Car",
           "description": "AI car marketplace finds similar vehicles via images and books test drives instantly.",
           "img": "/images/projects/Find-My-Car.png",
-          "tech": ["next.js", "react", "tailwind", "postgreSQL", "typeScript", "javascript"],
+          "tech": ["next.js", "react", "tailwind", "postgresSQL", "typeScript", "javascript"],
           "url": "https://github.com/mishraShilpa-28/Find-My-Car"
         },
         "3": {
@@ -145,7 +145,7 @@
           "title": "_FoodApp : MERN-Stack-Restaurant-Website",
           "description": "Full-featured restaurant site with secure auth, payments, order tracking, and menu search.",
           "img": "/images/projects/restaurant-website-mern.png",
-          "tech": ["mongoDB", "express.js", "react", "node.js", "typeScript", "tailwind"],
+          "tech": ["mongoDB", "express.js", "react", "node.js", "typeScript", "tailwind", "javascript"],
           "url": "https://github.com/mishraShilpa-28/restaurant-website-mern"
         },
         "6": {
